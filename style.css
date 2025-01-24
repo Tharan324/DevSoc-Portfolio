@@ -33,7 +33,7 @@ header p {
       
 #map {
         width: 100%;
-        height: 60vh;
+        height: 70vh;
         max-width: 800px;
         border-radius: 15px;
 }
@@ -44,4 +44,75 @@ footer {
         color: #95A5A6;
         text-align: center;
 }
+
+footer .social-links {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+}
+
+footer .social-links a {
+        display: inline-block;
+        width: 32px; /* Set size for icons */
+        height: 32px;
+        transition: transform 0.3s; /* Smooth hover animation */
+}
       
+footer .social-links a img {
+        width: 100%; /* Scale SVGs to fit the container */
+        height: 100%;
+        display: block;
+}
+      
+footer .social-links a:hover {
+        transform: scale(1.1); /* Slight zoom effect on hover */
+}
+      
+/* Modal Styles */
+.modal {
+        display: none; /* Hidden by default */
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+        z-index: 1000;
+        justify-content: center;
+        align-items: center;
+        overflow-y: auto; /* Makes the modal scrollable */
+}
+      
+.modal-content {
+        background-color: white;
+        padding: 20px;
+        margin: 5% auto;
+        width: 80%;
+        border-radius: 8px;
+        max-width: 600px;
+}
+      
+.close {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        font-size: 24px;
+        cursor: pointer;
+        color: #333;
+}
+
+button.open-modal {
+        background-color: #007bff; /* Blue background */
+        color: white; /* White text */
+        border: none; /* Remove default border */
+        padding: 7px 10px; /* Add padding */
+        border-radius: 5px; /* Rounded corners */
+        cursor: pointer; /* Pointer cursor on hover */
+        font-size: 14px; /* Adjust font size */
+        transition: background-color 0.3s; /* Smooth hover effect */
+}
+      
+button.open-modal:hover {
+        background-color: #0056b3; /* Darker blue on hover */
+}
