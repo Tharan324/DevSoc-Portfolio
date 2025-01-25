@@ -1,11 +1,9 @@
-const map = L.map('map').setView([10, 100], 3); // Initial map view
+const map = L.map('map').setView([10, 100], 3); 
 
-// Add tile layer to the map
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
 }).addTo(map);
 
-// Add markers with dynamic modal content
 const locations = [
   {
     name: 'Delhi',
@@ -39,7 +37,7 @@ const locations = [
   },
 ];
 
-// Create markers and bind popups with a "View Details" button
+// Create marker and bind popup
 locations.forEach(location => {
   const marker = L.marker([location.lat, location.lon]).addTo(map);
 
@@ -73,12 +71,11 @@ map.on('popupopen', function (e) {
   }
 });
 
-// Close modal when clicking the "X" button
+// Close modal when clicking the "X" button or outside
 closeModal.addEventListener('click', () => {
   modal.style.display = 'none';
 });
 
-// Close modal when clicking outside the modal content
 window.addEventListener('click', (e) => {
   if (e.target === modal) {
     modal.style.display = 'none';
