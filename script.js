@@ -11,31 +11,31 @@ const locations = [
     name: 'Delhi',
     lat: 28.6139,
     lon: 77.2090,
-    description: 'This project focuses on urban planning in Delhi.',
+    description: "My older sister works in Delhi as a visual designer for a creative agency with some really cool clients, like NBA India! Thanks to her influence, I love fashion, and I always make sure to hit up the markets and thrift stores in Delhi whenever I visit.",
   },
   {
     name: 'Chennai',
     lat: 13.0827,
     lon: 80.2707,
-    description: 'A sustainable development project in Chennai.',
+    description: "I was born and raised in Chennai! I attended a Montessori school from K-10 and an international school for my last two years of high school. After graduating, I worked at an EdTech startup called Mentor Match as an intern, where I got my first hands-on experience in building internal tools, SEO, R&D, and some HR tasks. At a startup, you really do get involved in a bit of everything!",
   },
   {
     name: 'Sydney',
     lat: -33.8688,
     lon: 151.2093,
-    description: 'Urban planning and infrastructure projects in Sydney, Australia.',
+    description: "I live here now! I’ve just started my third year of my Bachelor of Software Engineering (Honours) degree. So far, I’ve learned a lot—OOP in Java, Databases, Computing in Python, C, Data Structures and Algorithms, JavaScript, and TypeScript. I’ve also worked on some exciting projects at uni, like recreating Git (Grip) in Python, Rsync in C, and UNSW Memes. I’m now looking for opportunities to put my skills to the test, keep learning, and make meaningful contributions. I’m also really passionate about teaching and I’ve been a private tutor for 2 years now, tutoring Year 8 to HSC students.",
   },
   {
     name: 'Singapore',
     lat: 1.3521,
     lon: 103.8198,
-    description: 'Urban planning and infrastructure projects in Sydney, Australia.',
+    description: "Nothing special about Singapore, except that I’ve spent several overnight layovers here every time I’ve traveled between India and Australia.",
   },
   {
     name: 'Hong Kong',
     lat: 22.3193,
     lon: 114.1694,
-    description: 'Urban planning and infrastructure projects in Sydney, Australia.',
+    description: "Special mention because I’m currently saving up to visit Hong Kong. My girlfriend and some friends are from there and I’ve heard such great things about the place.",
   },
 ];
 
