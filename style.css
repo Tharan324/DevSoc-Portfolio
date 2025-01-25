@@ -5,6 +5,11 @@
         box-sizing: border-box;
 }
 
+@font-face {
+        font-family: 'Italic';
+        src: url('assets/IndianaItalic-d8wg.ttf') format('truetype');
+}
+
 /* Starry Background */
 body {
         font-family: Arial, sans-serif;
@@ -48,13 +53,22 @@ header {
 }
       
 header h1 {
+        font-family: 'Italic';
         font-size: 3rem;
-        color: #f4f4f9;
+        background: linear-gradient( #FF8C00, #FF0080, #9400D3, #00FFFF); /* Bright sunset gradient */
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-shadow: 
+            0 0 10px rgba(255, 140, 0, 0.4), /* Outer glow with orange */
+            0 0 20px rgba(255, 0, 128, 0.2), /* Purple-pink glow */
+            0 0 30px rgba(0, 255, 255, 0.1); /* Cyan glow */
+        letter-spacing: 3px;
 }
       
 header p {
-        font-size: 1.2rem;
-        color: #7F8C8D;
+        font-family: 'Italic';
+        font-size: 1rem;
+        color: #47d3d3;
 }
       
 #map {
