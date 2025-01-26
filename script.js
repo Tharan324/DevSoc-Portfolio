@@ -25,7 +25,7 @@ const locations = [
     name: "Colombo",
     lat: 6.9271,
     lon: 79.8612,
-    description: "I’ve always loved nature, and it’s important for me to travel and spend time outdoors to recharge when things get hectic at uni. Last year, I made my first trip to Sri Lanka with some friends, and it was a truly memorable experience.",
+    description: "I’ve always loved nature, and it’s important for me to travel and spend time outdoors to recharge when things get hectic at uni. Last year, I made my first trip with friends to Sri Lanka, and it was a truly memorable experience.",
     image1: "assets/colombo.jpg",
     image2: "assets/colombo2.jpg"
   },
@@ -33,7 +33,7 @@ const locations = [
     name: "Sydney",
     lat: -33.8688,
     lon: 151.2093,
-    description: "I live here now and I’ve just started my third year of my Bachelor of Software Engineering (Honours) degree. So far, I’ve learned a lot—OOP in Java, Databases, Computing in Python, C, Data Structures and Algorithms, JavaScript, and TypeScript. I’ve also worked on some exciting projects at uni, like recreating Git (Grip) in Python, Rsync in C, and UNSW Memes, and an e-invoicing system. I’m now looking for opportunities to put my skills to the test, keep learning, and make meaningful contributions. I’m also really passionate about teaching and I’ve been a private tutor for 2 years now, tutoring Year 8 to HSC students. Balancing all this work can be a lot, so I like to head down to my local cat cafe or hit up a few of my favorite live music spots.",
+    description: "I live here now and I’ve just started my third year of my Bachelor of Software Engineering (Honours) degree. So far, I’ve learned a lot—OOP in Java, Databases, Computing in Python, C, Data Structures and Algorithms, JavaScript, and TypeScript. I’ve also worked on some exciting projects at uni, like recreating Git (Grip) in Python, Rsync in C, and UNSW Memes, and an e-invoicing system. I’m now looking for opportunities to put my skills to the test, keep learning, and make meaningful contributions. I’m also really passionate about teaching and I’ve been a private tutor for 2 years now, tutoring Year 8 to HSC students. Balancing all this work can be a lot, so I like to head down to my local cat cafe or hit up a few of my favorite live music spots when I have the time.",
     image1: "assets/sydney.jpg",
     image2: "assets/sydney2.jpg" 
   },
