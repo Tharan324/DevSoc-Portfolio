@@ -132,10 +132,12 @@ footer .social-links a:hover {
 	margin: 5% auto;
 	width: 80%;
 	border-radius: 8px;
-	max-width: 600px;
+	max-width: 800px;
 	max-height: 90vh;
-	box-sizing: border-box;
-	position: relative;
+	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	box-sizing: border-box;
 }
 
 .modal-content h2 {
@@ -148,12 +150,18 @@ footer .social-links a:hover {
 	margin-bottom: 20px;
 }
 
-#modal-image {
-	max-width: 100%;
-	max-height: 50vh;
-	display: block;
-	margin: 0 auto 15px;
-	height: auto;
+.modal-images {
+	display: flex;
+	justify-content: space-between;
+	gap: 10px;
+	align-items: center;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.modal-image {
+	max-width: 48%;
+	max-height: 500px;
 	border-radius: 8px;
 	object-fit: contain;
 }
