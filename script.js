@@ -9,7 +9,7 @@ const locations = [
     name: "Delhi",
     lat: 28.6139,
     lon: 77.2090,
-    description: "My older sister works in Delhi as a visual designer for a creative agency with some really cool clients, like NBA India! Thanks to her influence, I love fashion, and I always make sure to hit up the markets and thrift stores in Delhi whenever I visit.",
+    description: "My older sister works in Delhi as a visual designer for a creative agency with some really cool clients, like NBA India! Probably due to her influence, I love all things design, whether it's product, interior, or fashion. I always make sure to visit the markets and thrift stores in Delhi whenever I can. I've also had some of the best meals of my life in Delhi🤤🤤",
     image1: "assets/delhi.jpg",
     image2: "assets/delhi2.jpg"
   },
@@ -17,7 +17,7 @@ const locations = [
     name: "Chennai",
     lat: 13.0827,
     lon: 80.2707,
-    description: "I was born and raised in Chennai! I attended a Montessori school from K-10 and an international school for my last two years of high school. After graduating, I worked at an EdTech startup called Mentor Match as an intern, where I got my first hands-on experience in building internal tools, SEO, R&D, and some HR tasks. At a startup, you really do get involved in a bit of everything! I'm back home at the moment, reunited with my lil baby Catniss. Isn’t she adorable?",
+    description: "I was born and raised in Chennai! I attended a Montessori school from K-10 and an international school for my last two years of high school. During high school, I volunteered with a scuba diving company during COVID to supply oxygen tanks to patients, helping nearly 150 people as most hospitals were at full capacity. After graduating, I worked as an intern at an EdTech startup called Mentor Match, where I gained hands-on experience in building internal tools, SEO, R&D, and some HR tasks. At a startup, you really do get involved in a bit of everything! Now, I'm back home for the break, reconnecting with the city, friends, family, and, most especially, with my baby, Catniss. Isn’t she adorable?",
     image1: "assets/catniss.jpg",
     image2: "assets/chennai.jpg"
   },
@@ -25,7 +25,7 @@ const locations = [
     name: "Colombo",
     lat: 6.9271,
     lon: 79.8612,
-    description: "I was born and raised in Chennai! I attended a Montessori school from K-10 and an international school for my last two years of high school. After graduating, I worked at an EdTech startup called Mentor Match as an intern, where I got my first hands-on experience in building internal tools, SEO, R&D, and some HR tasks. At a startup, you really do get involved in a bit of everything! I'm back home at the moment, reunited with my lil baby Catniss. Isn’t she adorable?",
+    description: "I’ve always loved nature, and it’s important for me to travel and spend time outdoors to recharge when things get hectic at uni. Last year, I made my first trip to Sri Lanka with some friends, and it was a truly memorable experience.",
     image1: "assets/colombo.jpg",
     image2: "assets/colombo2.jpg"
   },
@@ -33,7 +33,7 @@ const locations = [
     name: "Sydney",
     lat: -33.8688,
     lon: 151.2093,
-    description: "I live here now! I’ve just started my third year of my Bachelor of Software Engineering (Honours) degree. So far, I’ve learned a lot—OOP in Java, Databases, Computing in Python, C, Data Structures and Algorithms, JavaScript, and TypeScript. I’ve also worked on some exciting projects at uni, like recreating Git (Grip) in Python, Rsync in C, and UNSW Memes. I’m now looking for opportunities to put my skills to the test, keep learning, and make meaningful contributions. I’m also really passionate about teaching and I’ve been a private tutor for 2 years now, tutoring Year 8 to HSC students.",
+    description: "I live here now and I’ve just started my third year of my Bachelor of Software Engineering (Honours) degree. So far, I’ve learned a lot—OOP in Java, Databases, Computing in Python, C, Data Structures and Algorithms, JavaScript, and TypeScript. I’ve also worked on some exciting projects at uni, like recreating Git (Grip) in Python, Rsync in C, and UNSW Memes, and an e-invoicing system. I’m now looking for opportunities to put my skills to the test, keep learning, and make meaningful contributions. I’m also really passionate about teaching and I’ve been a private tutor for 2 years now, tutoring Year 8 to HSC students. Balancing all this work can be a lot, so I like to head down to my local cat cafe or hit up a few of my favorite live music spots.",
     image1: "assets/sydney.jpg",
     image2: "assets/sydney2.jpg" 
   },
@@ -49,7 +49,7 @@ const locations = [
     name: "Hong Kong",
     lat: 22.3193,
     lon: 114.1694,
-    description: "Special mention because I’m currently saving up to visit Hong Kong. My girlfriend and some friends are from there and I’ve heard such great things about the place, especially about the tarts. I need me some of these.",
+    description: "Special mention because I’m currently saving up to visit Hong Kong. My girlfriend and some friends are from there and I’ve heard and seen such great things about the place. Look at these tarts, I need me some of these.",
     image1: "assets/tart.jpg",
     image2: "assets/hk.jpg"
   },
