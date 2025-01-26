@@ -10,13 +10,13 @@ const locations = [
     lat: 28.6139,
     lon: 77.2090,
     description: "My older sister works in Delhi as a visual designer for a creative agency with some really cool clients, like NBA India! Thanks to her influence, I love fashion, and I always make sure to hit up the markets and thrift stores in Delhi whenever I visit.",
-    image: "assets/tart.jpg"
+    image: "assets/delhi.jpg"
   },
   {
     name: "Chennai",
     lat: 13.0827,
     lon: 80.2707,
-    description: "I was born and raised in Chennai! I attended a Montessori school from K-10 and an international school for my last two years of high school. After graduating, I worked at an EdTech startup called Mentor Match as an intern, where I got my first hands-on experience in building internal tools, SEO, R&D, and some HR tasks. At a startup, you really do get involved in a bit of everything!",
+    description: "I was born and raised in Chennai! I attended a Montessori school from K-10 and an international school for my last two years of high school. After graduating, I worked at an EdTech startup called Mentor Match as an intern, where I got my first hands-on experience in building internal tools, SEO, R&D, and some HR tasks. At a startup, you really do get involved in a bit of everything! I'm back home at the moment, reunited with my lil baby Catniss. Isn’t she adorable?",
     image: "assets/catniss.jpg"
   },
   {
@@ -31,13 +31,13 @@ const locations = [
     lat: 1.3521,
     lon: 103.8198,
     description: "Nothing special about Singapore, except that I’ve spent several overnight layovers here every time I’ve traveled between India and Australia.",
-    image: "assets/tart.jpg"
+    image: ""
   },
   {
     name: "Hong Kong",
     lat: 22.3193,
     lon: 114.1694,
-    description: "Special mention because I’m currently saving up to visit Hong Kong. My girlfriend and some friends are from there and I’ve heard such great things about the place.",
+    description: "Special mention because I’m currently saving up to visit Hong Kong. My girlfriend and some friends are from there and I’ve heard such great things about the place, especially about the tarts. I need me some of these.",
     image: "assets/tart.jpg"
   },
 ];
@@ -48,12 +48,11 @@ locations.forEach(location => {
 
   marker.bindPopup(
     `<div>
-      <strong>${location.name}</strong><br>
       <button class="open-modal" 
               data-name="${location.name}" 
               data-description="${location.description}"
               data-image="${location.image}">
-        Go here
+        Visit ${location.name}
       </button>
     </div>`
   );
